@@ -1,0 +1,67 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{siunitx}
+\usepackage[european]{circuitikz}
+\usepackage{pgfplots}
+\usepackage{pdfpcnotes}
+
+\usetheme{CambridgeUS}
+
+\definecolor{toolboxOrange}{HTML}{f14531}
+
+\setbeamercolor{section in toc}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=toolboxOrange}
+\setbeamercolor*{palette primary}{fg=toolboxOrange,bg=gray!30!white}
+\setbeamercolor*{palette secondary}{fg=toolboxOrange,bg=gray!15!white}
+\setbeamercolor*{palette tertiary}{bg=toolboxOrange,fg=gray!10!white}
+\setbeamercolor*{palette quaternary}{fg=toolboxOrange,bg=gray!5!white}
+\setbeamercolor*{sidebar}{fg=toolboxOrange,bg=gray!15!white}
+\setbeamercolor*{palette sidebar primary}{fg=toolboxOrange}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=toolboxOrange}
+\setbeamercolor*{palette sidebar quaternary}{fg=gray!10!white}
+\setbeamercolor{titlelike}{parent=palette primary,fg=toolboxOrange}
+\setbeamercolor{frametitle}{bg=gray!10!white}
+\setbeamercolor{frametitle right}{bg=gray!60!white}
+
+\pgfplotsset{ticks=none}
+
+\pgfplotsset{every axis x label/.style={
+  at={(0.5,0)},
+  below,
+  yshift=-5pt
+  }
+}
+
+\pgfplotsset{every axis y label/.style={
+  at={(0,0.5)},
+  xshift=-15pt,
+  rotate=90
+  }
+}
+
+\pgfplotsset{compat=1.15}
+
+\title{Toolbox Präsentation}
+
+\author{Ich \& du}
+
+\institute[Toolbox Bodensee]
+
+\date{Toolbox Bodensee, \the\year}
+
+\subject{CYBER}
+
+\logo{\includegraphics[height=0.13\textheight]{toolbox_logo_orange}}
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\end{document}
