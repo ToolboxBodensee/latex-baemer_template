@@ -1,5 +1,8 @@
  LaTeX-Beamer Präsentation
 ===========================
+
+**Entwicklung nur auf [GitLab](https://gitlab.com/ToolboxBodensee/vortrag/latex-baemer_template). Auf GitHub befindet sich lediglich ein Mirror**
+
 Im Toolbox Theme...
 
  Installation:
